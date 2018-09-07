@@ -9,7 +9,7 @@ html, body{
 #bg-image{
     position: fixed;
     border: 2 solid thick;
-    background: url(alisa-anton-393305-unsplash.jpg);
+    background: url(../images/rula-sibai-2387-unsplash.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -32,5 +32,14 @@ html, body{
 
 .jumbotron {
     position: relative;
-    z-index: 2;
+    z-index: 2;      
+}
+#me {
+    top:0;
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari 3-8 */
+    transform: rotate(5deg);
 }
