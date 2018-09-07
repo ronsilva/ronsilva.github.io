@@ -10,7 +10,7 @@ html, body{
     position: fixed;
     border: 2 solid thick;
     background: url(../images/rula-sibai-2387-unsplash.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
