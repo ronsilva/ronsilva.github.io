@@ -32,7 +32,8 @@ html, body{
 
 .jumbotron {
     position: relative;
-    z-index: 2;      
+    z-index: 2;
+    background-color: rgba(50,31,16,0.60);
 }
 #me {
     top:0;
