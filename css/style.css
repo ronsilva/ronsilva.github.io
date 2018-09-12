@@ -14,17 +14,9 @@ h1, h2, h3, h4, h5 {
      font-variant: small-caps;
 }
 
-
-
 .row {
     position: relative;
     z-index: 2;
-}
-
-.onBottom{
-    padding-bottom:10%;
-    margin: 0;
-    top:0;
 }
 
 #bg-image{
@@ -117,17 +109,6 @@ h1, h2, h3, h4, h5 {
     width: 50px;
 }
 
-@media only screen and (min-width: 668px) {
-    .onBottom{
-    padding-bottom: 10%;
-    }
-}
-
-/*@media only screen and (max-width: 991px) {
- .meGroup {
-        visibility: hidden;
-    }
-}*/
 .fas {
     font-size: .75em;
 }
@@ -137,6 +118,5 @@ hr {
     margin: 3em auto;
     border-style:solid;
     border-width: 1px;
-    color: aqua;
-}
+    color: white;
 }
