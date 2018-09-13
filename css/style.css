@@ -2,15 +2,15 @@
 /* CSS Document */
 
 @import url("https://use.typekit.net/yme8pob.css");
-/*also "halyard-display"; "eloquent-jf-small-caps-pro"*/
+/*also "halyard-display"; "freight-micro-pro;*/
 
 
 body {
     font-family: "acumin-pro";
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: "eloquent-jf-small-caps-pro";
+h1, h2, h3, h4 {
+    font-family: "freight-micro-pro";
      font-variant: small-caps;
 }
 
@@ -120,7 +120,7 @@ hr {
 }
 
 #aboutMeBgImg {
-    background-image: url(alisa-anton-393305-unsplash.jpg);
+    background-image: url(../images/wes-hicks-453773-unsplash.jpg);
      background-position:center;
 }
 
