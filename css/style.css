@@ -19,34 +19,26 @@ h1, h2, h3, h4, h5 {
     z-index: 2;
 }
 
+/*index page*/
+
 #bg-image{
     position: fixed;
     border: 2 solid thick;
-    background: url(../images/rula-sibai-2387-unsplash.jpg);
+    background: url(../images/patrick-tomasso-151382-unsplash.jpg), rgba(0,0,0,0.50);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    background-blend-mode: darken;
     width: 100%;
     height: 100%;
     z-index: -2;
     top:0;
 }
 
-#overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:rgba(0,0,0,0.5);
-    z-index:1;
-}
-
 .jumbotron {
     position: relative;
     z-index: 2;
-    background-color: rgba(50,31,16,0.60);
+    background-color: rgba(13,6,6,0.75);
 }
 
 .meGroup {
@@ -120,3 +112,26 @@ hr {
     border-width: 1px;
     color: white;
 }
+
+.bgImg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#aboutMeBgImg {
+    background-image: url(alisa-anton-393305-unsplash.jpg);
+     background-position:center;
+}
+
+#myWorkBgImg {
+    background-image: url(../images/annie-spratt-40195-unsplash.jpg);
+    background-position:bottom;
+}
+
+#contactMeBgImg {
+    background-image: url(../images/patrick-tomasso-151382-unsplash.jpg);
+    background-position:bottom;
+}
+
+
