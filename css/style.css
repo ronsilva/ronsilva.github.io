@@ -19,6 +19,11 @@ h1, h2, h3, h4 {
     z-index: 2;
 }
 
+main {
+    
+}
+
+
 /*index page*/
 
 #bg-image{
@@ -41,59 +46,53 @@ h1, h2, h3, h4 {
     background-color: rgba(13,6,6,0.75);
 }
 
-.meGroup {
+.imgShadow {
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+#meIndex {
+    position:relative;
+    z-index: 2;
     float: right;
     position: relative;
     display: block;
-    width: 20%;
-    height: 200px;
+    width: 18%;
 }
 
-#me1 {
-    position:relative;
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    z-index: 2;
-    width: 90%;
+.meGroup {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-#me2 {
-    position:relative;
-    bottom: 310px;
-    left:35px;
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    z-index: 1;
-}
-
-#me3 {
-    position:relative;
-    bottom: 585px;
-    right:15px;
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    z-index: 0;
+.me {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    cursor:grab;
 }
 
 .tform-5 {
     -ms-transform: rotate(5deg); /* IE 9 */
     -webkit-transform: rotate(5deg); /* Safari 3-8 */
     transform: rotate(5deg);
+    left:25px;
 }
 
 .tform-15 {
     -ms-transform: rotate(15deg); /* IE 9 */
     -webkit-transform: rotate(15deg); /* Safari 3-8 */
     transform: rotate(15deg);
+    left:25px;
 }
 
 .tform-25 {
-    -ms-transform: rotate(25deg); /* IE 9 */
-    -webkit-transform: rotate(25deg); /* Safari 3-8 */
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari 3-8 */
     transform: rotate(-5deg);
+    top:50px;
 }
 
 .navbar-brand {
@@ -133,5 +132,3 @@ hr {
     background-image: url(../images/patrick-tomasso-151382-unsplash.jpg);
     background-position:bottom;
 }
-
-
