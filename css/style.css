@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Fonts*/
 @import url("https://use.typekit.net/yme8pob.css");
 /*also "halyard-display"; "freight-micro-pro;*/
 
-
+/*General*/
 body {
     font-family: "acumin-pro";
 }
@@ -14,22 +15,56 @@ h1, h2, h3, h4 {
      font-variant: small-caps;
 }
 
+hr {
+    display: block;
+    margin: 3em auto;
+    border-style:solid;
+    border-width: 1px;
+    color: white;
+}
+
 .row {
     position: relative;
     z-index: 2;
 }
 
-main {
-    
+/*Navbar Items*/
+.navbar-brand {
+    padding: 0;
+    width: 50px;
 }
 
+.fas {
+    font-size: .75em;
+}
 
-/*index page*/
+/*Page Header Images*/
+.bgImg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+#aboutMeBgImg {
+    background-image: url(../images/Backgrounds/wes-hicks-453773-unsplash.jpg);
+     background-position:center;
+}
+
+#myWorkBgImg {
+    background-image: url(../images/Backgrounds/annie-spratt-40195-unsplash.jpg);
+    background-position:bottom;
+}
+
+#contactMeBgImg {
+    background-image: url(../images/Backgrounds/patrick-tomasso-151382-unsplash.jpg);
+    background-position:bottom;
+}
+
+/*Index Page*/
 #bg-image{
     position: fixed;
     border: 2 solid thick;
-    background: url(../images/patrick-tomasso-151382-unsplash.jpg), rgba(0,0,0,0.50);
+    background: url(../images/Backgrounds/patrick-tomasso-151382-unsplash.jpg), rgba(0,0,0,0.50);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,89 +81,64 @@ main {
     background-color: rgba(13,6,6,0.75);
 }
 
-.imgShadow {
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-}
-
 #meIndex {
     position:relative;
-    z-index: 2;
     float: right;
-    position: relative;
     display: block;
     width: 18%;
+    z-index: 2;
 }
 
+/*About Me Page*/
 .meGroup {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
+.imgShadow {
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
 .me {
     position: absolute;
-    max-width: 200px;
+    width: 200px;
     height: auto;
-    cursor:grab;
+}
+
+.xWhith {
+    width: 300px;
 }
 
 .tform-5 {
     -ms-transform: rotate(5deg); /* IE 9 */
     -webkit-transform: rotate(5deg); /* Safari 3-8 */
     transform: rotate(5deg);
-    left:25px;
 }
 
 .tform-15 {
     -ms-transform: rotate(15deg); /* IE 9 */
     -webkit-transform: rotate(15deg); /* Safari 3-8 */
     transform: rotate(15deg);
-    left:25px;
 }
 
 .tform-25 {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari 3-8 */
     transform: rotate(-5deg);
-    top:50px;
 }
 
-.navbar-brand {
-    padding: 0;
-    width: 50px;
+#bg-wood{
+    background:rgb(213,71,0);
+    width: 100%;
+    height: 600px;
 }
 
-.fas {
-    font-size: .75em;
-}
-
-hr {
-    display: block;
-    margin: 3em auto;
-    border-style:solid;
-    border-width: 1px;
+#bg-wood h4 {
+    position: relative;
     color: white;
-}
-
-.bgImg {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-#aboutMeBgImg {
-    background-image: url(../images/wes-hicks-453773-unsplash.jpg);
-     background-position:center;
-}
-
-#myWorkBgImg {
-    background-image: url(../images/annie-spratt-40195-unsplash.jpg);
-    background-position:bottom;
-}
-
-#contactMeBgImg {
-    background-image: url(../images/patrick-tomasso-151382-unsplash.jpg);
-    background-position:bottom;
+    text-shadow:  2px 2px 2px #000;
+    z-index: 10;
 }
