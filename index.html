@@ -1,84 +1,261 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html>
+<head>
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="My home page giving a quick insight into me and links to my work and ways to get in touch with me.">
     <meta name="author" content="Ron Silva">
     <link rel="icon" href="images/RonSilva_logoicon.png" type="image/png">
-    <title>Ron Silva - Programmer, Project Manager, Problem Solver</title>
+    <title>Ron Silva - Web Developer, Project Manager, Problem Solver</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--My style page-->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!--FontAwesome CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  </head>
-  <body>
-    <!--BG-image. Note: Instead of adding BG img to body as a fix for mobile devices-->  
-    <div id="bg-image"></div>
-    <!--Jumbotron-->
-    <div class="container pb-5">
-      <div class="jumbotron mt-5 pb-5">
-        <section class="d-block mb-5">
-          <h1 class="text-warning pb-2 mt-0">Who I am in 3 questions:</h1>
-            <!--header images:  Will be adding 2 more images that all stack on top of each other--> 
-            <img id="meIndex" class="img-thumbnail rounded float-right tform-5 d-none d-lg-block" src="images/Me/MeIndex.jpg" alt="Me 1">
-            <!--3 questions-->
-            <p class="lead text-white">Question: Describe yourself in 10 words or less: <a href="about.html#10words" class="text-white"><strong><em>"A logical thinker with a creative side..."</em></strong></a></p>
-            <p class="lead text-white">Question: What's your greatest accomplishment: <a href="about.html#greatest" class="text-white"><strong><em>"Becoming good at what I do..."</em></strong></a></p>  
-            <p class="lead text-white">Question: How do you deal with stress: <a href="about.html#stress" class="text-white"><strong><em>"Keep my eye on the ball..."</em></strong></a></p>
-            <a href="about.html#more" class="btn btn-outline-warning mt-3">Find out more...</a>
-        </section>  
-             <hr>
-        <!--Quotes-->
-        <section class="row">
-            <artical class="col-lg-12">
-                <h3 class="text-warning text-center">A few quotes to live by.</h3>
-                <br>
-                <div class="text-white lead">
-                    <p><em>“Be yourself; everyone else is already taken.”</em><br><small>-Oscar Wilde</small></p>
-                    <p class="text-right"><em>“Truth is stranger than fiction, but it is because Fiction is obliged to stick to possibilities; Truth isn't.”</em> <br><small>-Mark Twain</small></p>
-                    <p><em>“Weak and overwhelmed individuals respond to others' success by attacking it.”</em><br><small>-Grant Cardone</small></p>
-                </div>
-            </artical>
-        </section>
-           <hr> 
-        <section class="row onBottom text-center">
-            <artical class="col-lg">
-                <h3 class="text-warning">Why This Background?</h3>
-                <p class="text-white">My favorite season has to be Autumn.  I love the colors and the weather.  When I saw this picture it reminded me of the first time driving through the mid-west during the end of fall.  It was the first time I had ever seen such natural colors in person.  It was early in the morning and I was on one of my adventures driving from Los Angeles, California to a little town in Ohio.   I saw the sun come up and all I could see where beautiful hill sides, farms and big gorgeous trees and so many colors, I was awestruck! It really was an incredible sight and that's why I picked this image.</p>
-            </artical>
-        </section>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <!--GitHub Badge-->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+<header class="jumbotron bgImg rounded-0 myIndexBgImg">
+        <div class="container-fluid">    
+            <h1 class="indexHeaderText">Ron Silva - 
+                <span 
+                      class="txt-rotate" 
+                      data-period="2000" 
+                      data-rotate='["Web Developer", "Project Manager", "Problem Solver!"]'></span>
+            </h1>
+            <h3 class="indexHeaderText">Web Design and Development</h3>
         </div>
+    </header>
+    <!--Text Carousel-->
+    <script src="js/typingCarousel.js"></script>
+
+    <!--Header Work-->
+    <div class="jumbotron bgImg rounded-0 myWorkBgImg" id="work">
+      <div class="container-fluid">
+          <h1 class="text-white pt-0">My Work</h1>
+      </div>
     </div>
+    <!--Main Body-->
+    <section class="container pb-5 mb-5 bg-white">  
+    <h3>Projects</h3>
+       <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top mb-2 border border-dark rounded" src="images/Projects/EES_Website.png" alt="EES,Inc. Website Image">
+                        <h5 class="card-title">Project: Website</h5>
+                        <h6 class="card-subtitle">Client: Environmental Exhaust Service, Inc.</h6>
+                        <p class="card-text">Requirements: Redesign and update website to make mobile friendly.</p>
+                        <a href="http://eestx.com/" class="btn btn-outline-dark px-5" target="new"> Site </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top mb-2 border border-dark rounded" src="images/Projects/HRW_Website.png" alt="Human Rights Walk website Image">
+                        <h5 class="card-title">Project: Website</h5>
+                        <h6 class="card-subtitle">Human Rights Walk &amp; Festival</h6>
+                        <p class="card-text">Requirements: Website for non-profit.</p>
+                        <a href="http://www.humanrightswalk.org/" class="btn btn-outline-dark px-5" target="new">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix my-3"></div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project: Website</h5>
+                        <h6 class="card-subtitle">Client: Imago Design &amp; Print</h6> 
+                        <p class="card-text">Requirements: Inforamtional website</p>
+                        <a href="http://www.imagogr.com" class="btn btn-outline-dark px-5" target="new" >Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project: Company Management System </h5>
+                        <h6 class="card-subtitle">Client: Environmental Exhaust Service, Inc.</h6>
+                        <p class="card-text">Requirements: Customer Database, Custom Invoicing, Cloud based Job Scheduling for internal use.</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+    <!--About Me-->
+    <!--Header-->
+<div class="jumbotron bgImg aboutMeBgImg" id="about">
+  <div class="container-fluid">
+    <h1 class="text-white pt-0">About Me</h1>
+  </div>
+</div>
+<div class="container"> 
+  <!--Top statement-->
+  <blockquote class="blockquote text-center py-4 mb-5">
+    <p class="mb-0">Balance does not come from balancing work and life, since work is a part of life. <br>
+      It comes from the masterful handling of all of life's aspects<br>
+      and giving each the correct amount of attention at the correct time.</p>
+  </blockquote>
+  <!--Pictures-->
+  <hr>
+  </div>
+    <section class="container-fluid" id="bg-wood">
+    <!--<a href='https://www.freepik.com/free-psd/realistic-wood-background_957876.htm'>Designed by Graphictwister</a>-->  <div class="container">
+        <h4 class="ml-5 py-5">Check out these photos of my family.</h4>
+        <section class="meGroup pl-5"> 
+            <img src="images/Me/Me1.JPG" alt="Me 1" class="tform-5 imgShadow img-thumbnail me" name="dragme"> 
+            <img src="images/Me/Me2.JPG" alt="Me 2" class="tform-25 imgShadow img-thumbnail me" name="dragme"> 
+            <img src="images/Me/Me_NewYork.JPG" alt="Me 3" class="tform-15 imgShadow img-thumbnail me" name="dragme"> 
+            <img src="images/Me/Me+Einstein.jpg" alt="Me 4" class="tform-25  imgShadow img-thumbnail me" name="dragme"> 
+            <img src="images/Me/Me+Kids+Einstein.jpg" alt="Me 5" class="tform-5 imgShadow img-thumbnail me" name="dragme"> 
+            <img src="images/Me/Family.jpg" alt="Me 6" class="tform-25 imgShadow img-thumbnail me xWhith" name="dragme"> 
+        </section>
+    </div>
+        <!--DragNDrop Script--> 
+        <script src="js/dragNdrop.js"></script>
+        <div class="float-right paperBG d-none d-lg-block">
+            <p>Here I introduced some vanila JS drag &amp; drop and introduced a few changes:
+                <ul>
+                    <li>Added the "grab" and "grabbing" states toggle.</li>
+                    <li>Transforming the image from its current rotation to vertical and back on release.</li>
+                    <li>Introduced jQuery code to reolder the image stack as it's being slected.</li>
+                </ul>
+            </p>
+            <p>Future planned updates:
+                <ul>
+                    <li>Add a smoother transition to the transform.</li>
+                    <li>Add scaling to images.</li>
+                    <li>Add the ability to rotate in the images.</li>
+                    <li>Add a way to reset images to original positions.</li>
+                    <li>Add info effect to each image.</li>
+                </ul>
+            </p>
+        </div>
+  </section>
+  
+  <!--Q and A--> 
+  <div class="container pb-5 mb-5">
+    <hr>
+    <h4 id="more" class="mb-4">Questions and Answers:</h4>
+      <!--Question 1 details-->
+    <a id="10words"><h5>Question: Describe yourself in 10 words or less:</h5></a>
+    <p>A logical thinker with a creative side.</p>
+   <!-- <h5>Question: Why?</h5>
+    <p>When I was young I used to work in small theaters in Hollywood. I worked on stage designs and lighting. That eventually lead me into floral design and I did that on and off professionally for a few years.  I personally gravitated towards interior design and architecture and was looking at working in that field. But one thing that was always with me was my ability to think logically.  Generally I was always considered the "smart one" amongst my friends. I just like to learn and develop new skills.   </p>-->  
+      <!--Question 2 details-->
+    <a id="greatest"><h5>Question: What's your greatest accomplishment:</h5></a>  
+    <p>Becoming good at what I do!  I sucked at cooking!  Ask my wife and she will quickly tell you horror stories.  So one day I said enough is enough and I got online and started to learn how things are done, I learned some basics, watched cooking shows and I learned.  I also learned how to drive a manual, 10 speed, semi-truck.  I was terrified at first but I did it and I actually got pretty good.  I mean I could keep going, but the bottom line is I know that I can learn just about anything I set my mind to and yes I have had those really hard topics but I don’t let them go I always keep trying until I get it.</p>
+      <!--Question 3 details-->
+    <a id="stress"><h5>Question: How do you deal with stress:</h5></a>
+      <p>Keep my eye on the ball. It might sound cliché but at the end of the day it workable.  When things are getting chaotic, tempers are rising, the scene appears confusing, the deadline is just days or hours or even minutes away and it just seems impossible, instead of paying attention to all the distractions, I just focus on the task(s) at hand and on getting it done and done right.  I talk with people or whatever needs to happen to deal with the situation, and despite the distractions, just stay focused on hitting the target.</p>
+      
+      <hr class="mb-5">  
+  </div>
+<div class="jumbotron bgImg contactMeBgImg" id="contact">
+  <div class="container-fluid">
+    <h1 class="text-white">Contact Me</h1>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>I'm always glad to hear from you.  If you are interested in getting in touch with about a job opportunity or just want to connect with me, I'm always available through email, text or IM.  Also, don’t forget to follow me on Github and on Linked-In. </p>
+  </div>
+  <section class="card-group pt-4"> 
+    <!-- Follow buttons-->
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <!--Github-->
+        <li class="list-group-item">
+          <h4 class="card-title py-3">Follow Me</h4>
+          <!--<i class="fab fa-github fa-3x pb-2 d-block"></i>--> 
+          <a class="github-button" href="https://github.com/ronsilva" data-size="large" aria-label="Follow @ronsilva on GitHub">Follow @ronsilva</a> </li>
+        <!--linked in follow button-->
+        <li class="list-group-item"> 
+          <!--<i class="fab fa-linkedin fa-3x pb-2 d-block"></i>--> 
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script> 
+          <script type="IN/FollowCompany" data-id="1337"></script> 
+        </li>
+      </ul>
+    </div>
+    <!--Personal contact-->
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title py-2">Get In Touch</h4>
+        <a class="text-black-50" href="mailto:ron_silva@outlook.com"><i class="fas fa-at fa-1x text-dark"> :</i> ron_silva@outlook.com</a>
+        <p>&nbsp;<i class="fas fa-mobile-alt fa-1x text-dark">&nbsp;:</i>&nbsp; 281-323-8634</p>
+      </div>
+    </div>
+    <!--Linked In Badge-->
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title py-2">See My Profile</h4>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mrronsilva"><a class="LI-simple-link" href="https://www.linkedin.com/in/mrronsilva?trk=profile-badge">Ron Silva</a></div>
+      </div>
+    </div>
+  </section>
+  <!--Quote-->
+  <blockquote class="blockquote text-center">
+    <p class="mb-0">"Do not mind anything that anyone tells you about anyone else. Judge everyone and everything for yourself."</p>
+    <footer class="blockquote-footer">Henry James</footer>
+  </blockquote>
+</div>
+    
     <!--Bottom NavBar-->  
     <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html"><img id="logo" src="images/RonSilva_logo.png" alt="Ron Silva Logo" width="50"> </a>
+      <a class="navbar-brand" href="old/oldindex.html"><img id="logo" src="images/RonSilva_logo.png" alt="Ron Silva Logo" width="50"> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me <span class="sr-only"></span></a>
+            <a class="nav-link" href="#work">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="work.html">My Work</a>
+            <a class="nav-link" href="#about">About Me <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-          <div class="nav-justified" style="color: white;"><small>Programmer&nbsp; <i class="fas fa-ellipsis-v"></i>&nbsp; Project Manager&nbsp; <i class="fas fa-ellipsis-v"></i>&nbsp; Problem Solver&nbsp;</small></div>
+          <div class="nav-justified" style="color: white;"><small>Web Developer&nbsp; <i class="fas fa-ellipsis-v"></i>&nbsp; Project Manager&nbsp; <i class="fas fa-ellipsis-v"></i>&nbsp; Problem Solver&nbsp;</small></div>
       </div>
-    </nav>
-
-    <!-- Bootstrap core JavaScript
+    </nav>    
+    
+ <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script>
+    window.onload = function() {
+        //dragNdrop
+        document.onmousedown = startDrag;
+        document.onmouseup = stopDrag;
+        //Carousel
+        var elements = document.getElementsByClassName('txt-rotate');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-rotate');
+            var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+        document.body.appendChild(css);
+    }
+    </script>   
+</body>
 </html>

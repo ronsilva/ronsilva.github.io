@@ -11,8 +11,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: "freight-micro-pro";
-     font-variant: small-caps;
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+    font-weight: 800;
 }
 
 hr {
@@ -45,35 +46,29 @@ hr {
     background-size: cover;
 }
 
-#aboutMeBgImg {
-    background-image: url(../images/Backgrounds/wes-hicks-453773-unsplash.jpg);
-     background-position:center;
+.myIndexBgImg {
+    background-image: url(../images/Backgrounds/patrick-tomasso-151382-unsplash.jpg);
+    background-position:top;
+    height: 45em;
 }
 
-#myWorkBgImg {
+.myWorkBgImg {
     background-image: url(../images/Backgrounds/annie-spratt-40195-unsplash.jpg);
-    background-position:bottom;
+    background-position:top;
 }
 
-#contactMeBgImg {
+.aboutMeBgImg {
+    background-image: url(../images/Backgrounds/wes-hicks-453773-unsplash.jpg);
+    background-position:center;
+}
+
+.contactMeBgImg {
     background-image: url(../images/Backgrounds/patrick-tomasso-151382-unsplash.jpg);
     background-position:bottom;
 }
 
 /*Index Page*/
-#bg-image{
-    position: fixed;
-    border: 2 solid thick;
-    background: url(../images/Backgrounds/patrick-tomasso-151382-unsplash.jpg), rgba(0,0,0,0.50);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    top:0;
-}
+
 
 .jumbotron {
     position: relative;
@@ -154,5 +149,23 @@ hr {
     padding: 25px 15px;
     box-shadow: 1px 1px 8px 1px #555;
 }
+.indexHeaderText {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    top:3em;
+    padding: 1em 0;
+    text-shadow: 1px 1px 1px #000;
+}
 
+.indexHeaderText h1 {
+    font-size: 3em;
+}
 
+.indexHeaderText h3 {
+    font-size: 2em;
+    position: relative;
+}
+.blockquote {
+    padding: 5em 0;
+}
