@@ -1,6 +1,4 @@
-// JavaScript Document
-var tformTemp = "*";
-
+var tformTemp = "";
 function startDrag(e) {
 // determine event object
 if (!e) {
@@ -15,14 +13,14 @@ if (targ.name != 'dragme') {return};
     offsetY = e.clientY;
 // assign default values for top and left properties
 if(!targ.style.left) { targ.style.left='0px'};
-if (!targ.style.top) { targ.style.top='0px'};
+if(!targ.style.top) { targ.style.top='0px'};
 // calculate integer values for top and left 
 // properties
+targ.style.cursor="grabbing";
+targ.style.zIndex="16";
 if (targ.classList.contains("tform-5")) {tformTemp = "tform-5"};
 if (targ.classList.contains("tform-15")) {tformTemp = "tform-15"};
 if (targ.classList.contains("tform-25")) {tformTemp = "tform-25"};
-targ.style.cursor="grabbing";
-targ.style.zIndex="16";
 targ.classList.remove(tformTemp);
 coordX = parseInt(targ.style.left);
 coordY = parseInt(targ.style.top);
@@ -50,4 +48,9 @@ tformTemp = "";
 $(".me").click(function() {
     $('.meGroup').append($(this));
 });
+}
+window.onload = function() {
+document.onmousedown = startDrag;
+document.onmouseup = stopDrag;
+
 }

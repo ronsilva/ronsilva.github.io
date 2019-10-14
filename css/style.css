@@ -107,6 +107,11 @@ hr {
     position: absolute;
     width: 200px;
     height: auto;
+    -webkit-transition: transform 100ms ease-in-out;
+    -moz-transition: transform 100ms ease-in-out;
+    -ms-transition: transform 1000ms ease-in-out;
+    -o-transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
 
 .xWhith {
@@ -114,21 +119,38 @@ hr {
 }
 
 .tform-5 {
-    -ms-transform: rotate(5deg);  /*IE 9*/ 
-    -webkit-transform: rotate(5deg);  /*Safari 3-8*/ 
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg); 
     transform: rotate(5deg);
+    -webkit-transition: transform 100ms ease-in-out;
+    -moz-transition: transform 100ms ease-in-out;
+    -ms-transition: transform 100ms ease-in-out;
+    -o-transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
 
 .tform-15 {
     -ms-transform: rotate(15deg); /* IE 9 */
     -webkit-transform: rotate(15deg); /* Safari 3-8 */
     transform: rotate(15deg);
+    -webkit-transition: transform 100ms ease-in-out;
+    -moz-transition: transform 100ms ease-in-out;
+    -ms-transition: transform 100ms ease-in-out;
+    -o-transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
 
 .tform-25 {
     -ms-transform: rotate(-25deg);  /*IE 9 */
     -webkit-transform: rotate(-25deg);  /*Safari 3-8*/ 
     transform: rotate(-25deg);
+    -webkit-transition: transform 100ms ease-in-out;
+    -moz-transition: transform 100ms ease-in-out;
+    -ms-transition: transform 100ms ease-in-out;
+    -o-transition: transform 100ms ease-in-out;
+    transition: transform 100ms ease-in-out;
 }
 
 #bg-wood{
